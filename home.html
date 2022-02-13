@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Home</title>
+</head>
+
+<body>
+    <header>
+        <a href="home.html" class="logo"> <img src="img/logo.jpg"></a>
+        <nav class="navbar">
+            <div>
+                <a href="home.html" class="active">Home </a>
+                <a href="about.html">About </a>
+                <a href="order.html" >Order </a>
+                <a href="contact.html">Contact </a>
+                <span style="font-size:30px;cursor:pointer" onclick="openNav()"><a><i class="fas fa-user-alt"></i></a></span>
+
+            </div>
+
+            <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <input type="search" placeholder="search">
+                <a href="home.html">Home</a>
+                <a href="#">Sale</a>
+                <a href="order.html">Wedding cake</a>
+                <a href="order2.html">Celebration cake</a>
+                <a href="#">Register/Login</a>
+               
+                
+            </div>
+        </nav>
+    </header>
+
+
+    <section id="homemain">
+        <div id="section1">
+            <div class="divhome">
+                <img src="img/home1.jpg">
+            </div>
+            <div class="divhome" id="div2">
+                <p>
+                    Cakes<br>
+                    delivered <br>
+                    to your doorstep
+                </p>
+
+                <a href="order.html"><button class="buttonhom">Order Now</button></a>
+
+            </div>
+            <div class="divhome">
+                <img src="img/home2.jpg">
+            </div>
+        </div>
+        <div id="section2">
+            <p>All cakes are tailored to your taste and style </p>
+
+        </div>
+        <div id="section3">
+            <div class="cont">
+                <img src="img/chef.jpg">
+                <a href="about.html"><button class="buttonhom">About</button></a>
+            </div>
+            <div class="cont">
+                <img src="img/01.jpg">
+                <a href="order.html"><button class="buttonhom">Order</button></a>
+            </div>
+
+        </div>
+    </section>
+
+
+
+
+    <footer>
+
+        <div>
+            <h5>Location</h5>
+            <span>
+                Bakes <br>
+                Egypt cairo <br>
+                22.str
+            </span>
+        </div>
+        <div>
+            <h5>Opening Hours</h5>
+            <span>
+                mon-fri : 8:30 am to 5:00 pm <br>
+                saturday : 9:30 am to 1:00 pm <br>
+                sunday : closed
+            </span>
+        </div>
+        <div>
+            <h5>Social Media</h5>
+            <span>
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-twitter"></i><br><br><br>
+
+            </span>
+        </div>
+
+
+
+
+    </footer>
+    <script src="js.js"></script>
+</body>
+
+</html>
